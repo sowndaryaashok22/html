@@ -1,0 +1,17 @@
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.phtoflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.size1{
+    width: auto;
+    height: 300px;
+    margin: 5px; 
+}

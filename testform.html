@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    
+</head>
+<link rel="stylesheet" href="css/teststyle.css">
+<body>
+    <h1><center><b>Covid Vaccination Form</b></center></h1>
+    <form action="form.php" method="POST">
+        <label>Name<span class="tab">:</label>
+            <input type="text" size="50" autocomplete="on"></input>
+            <br>
+            <br>
+        <label>Age<span class="tab">:</label>
+
+            <input type="number" name="age" min="0" max="100">
+         <br><br>
+        <label>Gender<span class="tab">:</label>
+            <input type="radio" name="male" value="Male">Male</input>
+            <input type="radio" name="male" value="Male">Female</input><br><br>
+        <label>Address<span class="tab">:</label>
+            <textarea cols="9" rows="4"></textarea><br><br>
+        <label>Phone Number<span class="tab">:</label>
+                <input type="text"  size="50"></input><br><br>
+        <label>Vacccine Type<span class="tab">:</label>
+        <select>
+            <option name="covaxin">covaxin</option>
+            <option name="covidshield">covidhsied</option>
+            <option name="pfizer">pfizer</option>
+            <option name="moderna">moderna</option>
+        </select>     <br><br>
+        <label>Shot 1 date<span class="tab">:</label>
+            <input type="date" value="shot1">   <br><br>
+        <label>Shot 2 date<span class="tab">:</label>
+                <input type="date" value="shot1">  <br><br>
+          
+        <div class="allergyContainer"> 
+            <div class="allergyLabel">       
+                <label>Allergy</label> 
+            </div>
+            <div class="checkBoxes">
+                <ul style="list-style-type: none;"> 
+                <li><input type="checkbox" name="fever">Fever</input></li>
+                <li><input type="checkbox" name="ha">Head Ache</input></li>
+                <li><input type="checkbox" name="fever">Rashes</input></li>
+                <li><input type="checkbox" name="fever">Bumps</input></li>
+                </ul>
+            </div>
+        </div>
+        <a href="https://www.pfizer.com" target="_blank" style="margin-left: 50px;">click here to know the details</a><br><br>
+        <input type="submit" name="sumbit" value="Click" style="margin-left: 100px;">
+    </form>
+</body>

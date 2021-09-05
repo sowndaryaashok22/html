@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<title>result</title>
+<body>
+    <h1><bold><center>RESULT PORTAL</center></bold></h1>
+    <h2>Student Information</h2>
+    <div id = "container">
+        <label> Name :<input type=" text" id="name" autocomplete="on"></label><br><br>
+        <label> Student ID :<input type=" text" id="sid" autocomplete="on"></label><br><br>
+        <label> Department :</label>
+        <select id = "dept">
+            <option name="cse">CSE</option>
+            <option name="ece">ECE</option>
+            <option name="eee">EEE</option>
+            <option name="mech">MECH</option>
+        </select>
+        <h2>Calculate CGPA</h2>
+        <label> Subject 1 :<input type=" text" id="sub1" autocomplete="on"></label><br><br>
+        <label> Subject 2 :<input type=" text" id="sub2" autocomplete="on"></label><br><br>
+        <label> Subject 3 :<input type=" text" id="sub3" autocomplete="on"></label><br><br>
+        <button id="cal" value="calculate" >calculate</button>
+        <BR><br>
+        <label> CGPA :</label><br><br>
+        <h2 id="cgpa">  </h2>
+        <h2 id="enteredName"> </h2> 
+        <h2 id="sid1"> </h2> 
+        <h2 id="selectedDept"> </h2> 
+    </div>
+
+<script src="jstest/caltest.js"></script>
+</body>
+</html>
